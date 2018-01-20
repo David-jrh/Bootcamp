@@ -44,4 +44,23 @@
 //     console.log('nej');
 // }
 
-6
+
+// 6
+// let LDrik = "kakao";
+// switch (LDrik) {
+//     case "kakao":
+//         console.log(LDrik, 'er det bedste');
+//         break;
+//     case "juice":
+//         console.log(LDrik, 'giver ondt i maven');
+//         break;
+//     case "cola":
+//         console.log(LDrik, 'nej neje');
+
+//     case "kage":
+//         console.log(LDrik, 'ost');
+//         break;
+//     default:
+//         console.log(LDrik, 'er ukendt');
+//         break;
+// }
