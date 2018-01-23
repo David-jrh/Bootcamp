@@ -25,5 +25,5 @@ console.log(frugter);
 
 7
 let kage = [["jørgen", 10, 12], ["hans", 12, 10], ["kevin", 12, 10]];
-console.log(kage)
+console.log(kage);
 

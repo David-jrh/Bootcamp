@@ -9,16 +9,16 @@
 // let i = 1;
 
 // while (i <= 25) {
-//     console.log(i)
+//     console.log(i);
 //     i++
 // };
 
 // 3
 // let i = 1;
 // do {
-//     console.log(i, "hej")
+//     console.log(i, "hej");
 //     i++
-// } while (i <= 5)
+// } while (i <= 5);
 
 
 
@@ -26,7 +26,7 @@
 
 // for (let i = 2017; i >= 1917; i--) {
 //     console.log(i);
-// }
+// };
 
 // opgave 5
 // let ugedage = ["mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag", "søndag"];
@@ -37,7 +37,7 @@
 // let ugedage = ["mandag", "tirsdag", "onsdag", "torsdag", "fredag", "lørdag", "søndag"];
 
 // for (let i = 0; i < ugedage.length; i++) {
-//     console.log(ugedage[i])
+//     console.log(ugedage[i]);
 // };
 
 
@@ -61,6 +61,6 @@ random.forEach(function (tal, index) {
             console.log(tal + ' er mindre end ' + random[index + 1]);
         }
     } else {
-        console.log(tal + ' sidste tal')
+        console.log(tal + ' sidste tal');
     }
 });
