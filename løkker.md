@@ -41,7 +41,7 @@ hvor det man i ```for ()``` har 3 egenskaber hvor variablen deffineres, betingel
 
  **for each** 
 
- en indbygget funciton som løber hver enkelt element i et array - og
+ en indbygget funciton som løber hver enkelt element i et array via en løkke.
 
 ```javascript
  let music = ["Metallica", "Avenged Sevendfold", "Disturbed", "Korn"]
