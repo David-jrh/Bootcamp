@@ -11,7 +11,7 @@ let i = 1;
  while (i <= 25) {
      console.log(i)
      i++
- };
+ }
  ```
 
 
@@ -22,9 +22,9 @@ do gør at den altid kører koden igennem en gang og forstætter over til while 
  ```javascript
  let i = 1;
  do {
-     console.log(i, "hej")
+     console.log(i, "hej");
      i++
- } while (i <= 5)
+ } while (i <= 5);
  ```
 
 
@@ -45,5 +45,5 @@ hvor det man i ```for ()``` har 3 egenskaber hvor variablen deffineres, betingel
 
 ```javascript
  let music = ["Metallica", "Avenged Sevendfold", "Disturbed", "Korn"]
- music.forEach(function (music, index, arr) {     console.log(music + ' har placering ' + index); });
+ music.forEach(function (music, index) {     console.log(music + ' har placering ' + index); });
  ```

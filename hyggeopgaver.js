@@ -37,10 +37,26 @@
 
 
 
-function palindrome(str) {
-    let re = /[\W_]/g;
-    let lowRegStr = str.toLowerCase().replace(re, '');
-    let reverseStr = lowRegStr.split('').reverse().join('');
-    return reverseStr === lowRegStr;
+// function palindrome(str) {
+//     let re = /[\W_]/g;
+//     let lowRegStr = str.toLowerCase().replace(re, '');
+//     let reverseStr = lowRegStr.split('').reverse().join('');
+//     return reverseStr === lowRegStr;
+// }
+// console.log(palindrome("Tre negre med fane. En af dem er genert"));
+
+
+
+for (let num = 1; num < 137; num++) {
+    let tal = num;
+    if (num % 3 == 0) {
+        tal = "plum";
+    }
+    if (num % 5 == 0) {
+        tal = "bus";
+    }
+
+
+    console.log(tal)
+
 }
-console.log(palindrome("Tre negre med fane. En af dem er genert"));

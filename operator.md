@@ -8,7 +8,7 @@
 * === værdie og type skal være det samme
 * ! not brugt sammen med andre
 * != ikke det samme
-* !== ikke lig med eller ikke samme type
+* !== ikke lig med men stadigvæk samme datatype
 * < mindre end
 * \> støre end
 * <= mindre og lig med

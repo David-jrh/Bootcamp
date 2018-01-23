@@ -3,7 +3,7 @@
 
 **if()**
 
-if er en betingelse som skal have en ..... . udføres kun hvis .. er opfyldt/true.
+if er en betingelse som skal have en udtryk som skal evalueres til true/false . udføres kun hvis true er opfyldt.
 
 **else if**
 

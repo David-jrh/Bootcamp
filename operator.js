@@ -1,48 +1,49 @@
 
-// 2
-// let forste = 10;
-// let anden = 4;
+2
+let forste = 10;
+let anden = 4;
+let z = 0;
 
-// // z = forste + anden;
-// // z = forste - anden;
-// // z = forste * anden;
-// // z = forste / anden;
-// // z = forste % anden;
+z = forste + anden;
+z = forste - anden;
+z = forste * anden;
+z = forste / anden;
+z = forste % anden;
 
-// forste++;
-// forste--;
+forste++;
+forste--;
 
-// console.log(forste)
-
-
-// 3
-// let x = 42;
-// let y = 15;
-
-// x = y;
-// x += y;
-// x -= y;
-// x *= y;
-// x /= y;
-// x %= y;
-
-// console.log(x)
+console.log(forste);
 
 
-// 4
-// let x = 11;
-// let y = 50;
+3
+let x = 42;
+let y = 15;
 
-// if (y < 55 && x > 10) {
-//     console.log(x, y);
-// }
+x = y;
+x += y;
+x -= y;
+x *= y;
+x /= y;
+x %= y;
+
+console.log(x);
+
+
+4
+let x = 11;
+let y = 50;
+
+if (y < 55 && x > 10) {
+    console.log(x, y);
+}
 
 
 5
 let navn = "jens";
 let addresse = "kage";
 
-if (navn == "hans" || addresse == "kagss") {
+if (navn == "hans" || addresse == "kage") {
     console.log("dadadad");
 }
 else {
