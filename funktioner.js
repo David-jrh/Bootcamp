@@ -23,7 +23,7 @@
 
 // function lommeregner(x, y) {
 //     if
-//       (isNaN(x) || isNaN(y) || (x) == "" || (y) == "")
+//       (isNaN(x) || isNaN(y) || (x) == undefined || (y) ==undefined)
 //         return 0;
 
 //     else {
@@ -35,7 +35,7 @@
 
 
 // function lommeregner(x, y) {
-//     if (!isNaN(x) && !isNaN(y) && (x) != "" && (y) != ''){
+//     if (!isNaN(x) && !isNaN(y) && (x) != undefined && (y) != undefined){
 
 //         return 'tal ' + x + ' gange med tal ' + y + ', er lig med ' + x * y;
 //      }
