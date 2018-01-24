@@ -17,17 +17,21 @@ er en betingelse der udførers istedet for if eller if else hvis de ikke aktiver
 
 # **switch -case**
 
+en nemmere måde at stille mange else if'er
+hvor case er det der gør det aktivt
+break; fortæller næste objekt.
+default; svarer til else som gør noget hvis ingen af cassene er opfyldte i switchen
 
 switch ()
 
 case: "":
-.....
+...kode..
 break;
 
 -||-
 
 default:
-.....
+..kode...
 break;
 
 
