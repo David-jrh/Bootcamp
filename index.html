@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        html {
+            background-color: #FFF;
+        }
+
+        body {
+
+            height: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            background-color: rgb(236, 236, 236);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #content {
+            max-width: 1280px;
+            height: 100%;
+            color: #000;
+            margin: 0 auto;
+            padding-bottom: 500px;
+            padding-top: 100px;
+        }
+
+        #content h1 {
+            width: 400px;
+            height: 100%;
+            margin: 0 auto;
+            margin-bottom: 10px;
+
+        }
+
+        #content p {
+            margin: 0 auto;
+            width: 400px;
+            height: 100%;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="content"> </div>
+
+    <script>
+        // // fetch skal have en URL
+        // fetch('https://swapi.co/api/people/')
+        //     // hvis der ikke opstår en fejl med forbindelsen, udføres .then() funktionen
+        //     .then((response) => {
+        //         // response indeholder information om forbindelsen (headers)
+        //         console.log(response);
+        //     })
+        // fetch('https://swapi.co/api/people/')
+        //     .then((response) => {
+        //         // grib svarets indhold (body) og send det som et json objekt til næste .then()
+        //         return response.json();
+        //     })
+        //     .then((json) => {
+        //         // nu er json objektet lagt ind i data variablen, udskriv data
+        //         console.log(json);
+        //     })
+
+        // fetch('https://swapi.co/api/people/')
+        //     .then((response) => {
+        //         if (response.status == 200) {
+        //             return response.json();
+        //         } else {
+        //             throw new Error("virker ikke");
+        //         }
+        //     })
+        //     .then((json) => {
+        //         let content = document.getElementById('content');
+        //         json.results.forEach(person => {
+
+        //             let h1 = document.createElement('h1');
+        //             h1.textContent = person.name;
+        //             content.appendChild(h1);
+
+        //             let p = document.createElement('p');
+        //             p.textContent = `Øjenfarve: ${person.eye_color}, Højde: ${person.height}`;
+
+        //             content.appendChild(p);
+
+
+        //         });
+        //     })
+        //     .catch(function (error) {
+        //         console.log(error);
+        //     });
+
+
+
+        function kage(person) {
+            let content = document.getElementById('content');
+            let h1 = document.createElement('h1');
+            h1.textContent = person.name;
+            content.appendChild(h1);
+
+            let p = document.createElement('p');
+            p.textContent = `Øjenfarve: ${person.eye_color}, Højde: ${person.height}`;
+
+            content.appendChild(p);
+
+
+        }
+
+        fetch('https://swapi.co/api/people/')
+            .then((response) => {
+                if (response.status == 200) {
+                    return response.json();
+                } else {
+                    throw new Error("virker ikke");
+                }
+            })
+
+
+            .then((json) => {
+                json.results.forEach(kage);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+
+
+    </script>
+
+
+</body>
+
+</html>
